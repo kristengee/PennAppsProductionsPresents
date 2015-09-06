@@ -3,6 +3,7 @@
 <link rel='stylesheet' type='text/css' href='/stylesheet.css'>
 <title> Home </title>
 <h2> Welcome to Friends+Franz </h2>
- <body background="Kale-salad.jpg", width = 100%> </body>
+<h3> About ... </h3>
+<body background="Kale-salad.jpg", width = 100%> </body>
 
 </html>
