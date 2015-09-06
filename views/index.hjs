@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head> Friends and Franz </head>
 <link rel='stylesheet' type='text/css' href='/stylesheet.css'>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
@@ -11,29 +10,28 @@
 		
 	}
 
-<<<<<<< HEAD
 	$(document).ready(function(){
 	});
 
-=======
->>>>>>> c4657b6539533cb463b2c5307943ad224256cc11
     </script>
     <body background="Kale-salad.jpg", width = screen.width>
-    <IMG SRC="Logo.png", width = 35%>
-
-<<<<<<< HEAD
+    	<p></p>
     <body>
-=======
-    <body> 
-
->>>>>>> c4657b6539533cb463b2c5307943ad224256cc11
-    <body background-image="Kale-salad.jpg"> 
-	<h1>{{ heading }}</h1>
+    <div class = image>
+    <img src="gray-box.png", width = 35%, height = 30%>
+	</div>
+    <h2><span>
 	<form action="/login" method="POST" aligh="center">
-		<label for="username">Username</label>
+		    <IMG SRC="Logo.png", width = 30%>
+		    	<p></p> <p></p>
+		<label for="username">Username:</label>
 		<input type="text" name="username"/><br>
-		<label for="password">Password</label>
+		<label for="password">Password:  </label>
 		<input type="password" name="password"/><br>
-		<input type='submit' value="Log In" id='button'/>
+		<p></p>
+		<input type='submit' value="Log In" id='button'/> &nbsp;
+		<input type='submit' value="Sign Up" id='button'/>
+	</span></h2>
+		</div>
     </body>
 </html>
