@@ -19,10 +19,13 @@
 
     <title> "Friends and Franz" </title>
 
-    <body> 
+    <body background-image="Images/Kale-salad.jpg"> 
 	<h1>{{ heading }}</h1>
-	<form action="/create_user" method="POST">
-		<input type="text" name="username"/>
-		<input type='submit' value="PennApps" id='button'/>
+	<form action="/create_user" method="POST" aligh="center">
+		<label for="username">Username</label>
+		<input type="text" name="username"/><br>
+		<label for="password">Password</label>
+		<input type="password" name="password"/><br>
+		<input type='submit' value="Log In" id='button'/>
     </body>
 </html>

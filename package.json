@@ -1,9 +1,13 @@
 {
-	"name": "pennapps",
-	"description": "..",
-	"author": "Kristen Gee",
-	"version": "0.0.1",
-	"dependencies": {
-		"express": "~4.13.3"
-	}
+  "name": "pennapps",
+  "description": "..",
+  "author": "Kristen Gee",
+  "version": "0.0.1",
+  "dependencies": {
+    "bcryptjs": "^2.2.1",
+    "express": "~4.13.3",
+    "mongoose": "^4.1.5",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0"
+  }
 }
