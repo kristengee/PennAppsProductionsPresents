@@ -1,3 +1,4 @@
+/*
 #button {
 	position: absolute;
 	top: 60px;
@@ -5,6 +6,12 @@
 
 body {
 	background-image: url('/Images/Kale-salad.jpg');
-	background-size: 100%;
+	background-size: 5%;
    	background-repeat: no-repeat;
+   	background-position: center;
 }
+
+background {
+	width: 100%;
+}
+*/

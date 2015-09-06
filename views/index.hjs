@@ -12,14 +12,17 @@
 	}
 
 	$(document).ready(function(){
-		$("body").css('background-image', 'url("Images/Kale-salad.jpg")');
+		/*$("body").css('background-image', 'url("Kale-salad.jpg")');*/
 	});
 
     </script>
+    <body background="Kale-salad.jpg", width = 100%>
+    <IMG SRC="Logo.png", width = 35%>
 
-    <title> "Friends and Franz" </title>
+    <body> 
+    <input type='button' value='Pennapps' id='button'/>
 
-    <body background-image="Images/Kale-salad.jpg"> 
+    <body background-image="Kale-salad.jpg"> 
 	<h1>{{ heading }}</h1>
 	<form action="/create_user" method="POST" aligh="center">
 		<label for="username">Username</label>
