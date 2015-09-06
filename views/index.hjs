@@ -7,11 +7,7 @@
 
 	function Main() {
 		$('#button').show();
-		
 	}
-
-	$(document).ready(function(){
-	});
 
     </script>
     <body background="Kale-salad.jpg", width = screen.width>
@@ -21,15 +17,17 @@
     <img src="gray-box.png", width = 35%, height = 30%>
 	</div>
     <h2><span>
-	<form action="/create_user" method="POST" aligh="center">
-		    <IMG SRC="Logo.png", width = 30%>
+    	<IMG SRC="Logo.png", width = 30%>
 		    	<p></p> <p></p>
+	<form action="/login" method="POST" aligh="center">
 		<label for="username">Username:</label>
 		<input type="text" name="username"/><br>
 		<label for="password">Password:  </label>
 		<input type="password" name="password"/><br>
 		<p></p>
-		<input type='submit' value="Log In" id='button'/> &nbsp;
+		<input type='submit' value="Log In" id='button'/>
+	<form action="/signup" method="POST" aligh="center">
+		&nbsp;
 		<input type='submit' value="Sign Up" id='button'/>
 	</span></h2>
 		</div>
