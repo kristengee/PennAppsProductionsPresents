@@ -19,7 +19,7 @@
 
     <body background-image="Kale-salad.jpg"> 
 	<h1>{{ heading }}</h1>
-	<form action="/create_user" method="POST" aligh="center">
+	<form action="/login" method="POST" aligh="center">
 		<label for="username">Username</label>
 		<input type="text" name="username"/><br>
 		<label for="password">Password</label>
