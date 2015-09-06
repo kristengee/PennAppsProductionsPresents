@@ -11,17 +11,25 @@
 		
 	}
 
+<<<<<<< HEAD
 	$(document).ready(function(){
 	});
 
+=======
+>>>>>>> c4657b6539533cb463b2c5307943ad224256cc11
     </script>
     <body background="Kale-salad.jpg", width = screen.width>
     <IMG SRC="Logo.png", width = 35%>
 
+<<<<<<< HEAD
     <body>
+=======
+    <body> 
+
+>>>>>>> c4657b6539533cb463b2c5307943ad224256cc11
     <body background-image="Kale-salad.jpg"> 
 	<h1>{{ heading }}</h1>
-	<form action="/create_user" method="POST" aligh="center">
+	<form action="/login" method="POST" aligh="center">
 		<label for="username">Username</label>
 		<input type="text" name="username"/><br>
 		<label for="password">Password</label>

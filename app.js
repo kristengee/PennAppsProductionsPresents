@@ -71,8 +71,9 @@ passport.use('login', new LocalStrategy({
         // User exists but wrong password, log the error 
         if (!isValidPassword(user, password)){
           console.log('Invalid Password');
-          return done(null, false, 
-              req.flash('message', 'Invalid Password'));
+          return done(null, false
+              //req.flash('message', 'Invalid Password')
+			  );
         }
         // User and password both match, return user from 
         // done method which will be treated like success
@@ -112,7 +113,7 @@ passport.use('signup', new LocalStrategy({
           // set the user's local credentials
           newUser.username = username;
           newUser.password = createHash(password);
-
+          
           // save the user
           newUser.save(function(err) {
             if (err){
@@ -133,28 +134,12 @@ passport.use('signup', new LocalStrategy({
 );
 
 /* Handle Registration POST */
-  app.post('/create_user', passport.authenticate('login', {
+  app.post('/login', passport.authenticate('login', {
     successRedirect: '/home',
     failureRedirect: '/',
     failureFlash : true
   }));
 
-  /*
-app.post('/create_user', function(req, res) {
-	var user = {name: req.body.username}
-	var collection = db.collection('users')
-	collection.insert([user], function (err, result) {
-      if (err) {
-        console.log(err);
-      } else {
-        console.log('Inserted %d documents into the "users" collection. The documents inserted with "_id" are:', result.length, result);
-      }
-      //Close connection
-      db.close();
-    });
-	console.log(req.body.username);
-});
-*/
 
 /* Handle Logout */
 app.get('/signout', function(req, res) {
@@ -166,6 +151,10 @@ app.get('/', function(req, res) {
 	res.render('index', {
 		heading: (req.user ? req.user.username : 'Franz')
 	});
+});
+
+app.get('/home', function (req, res) {
+  res.render('home', {});
 });
 
 var server = app.listen(3000, function () {
