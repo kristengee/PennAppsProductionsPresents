@@ -106,7 +106,6 @@ passport.use('signup', new LocalStrategy({
              //req.flash('message','User Already Exists')
 			 );
         } else {
-			console.log("else case");
           // if there is no user with that email
           // create the user
           var newUser = new User();
@@ -139,6 +138,12 @@ passport.use('signup', new LocalStrategy({
     failureRedirect: '/',
     failureFlash : true
   }));
+  
+app.post('/signup', passport.authenticate('signup', {
+	successRedirect: '/home',
+	failureRedirect: '/',
+	failureFlash : true
+}));
 
 
 /* Handle Logout */
@@ -156,6 +161,24 @@ app.get('/', function(req, res) {
 app.get('/home', function (req, res) {
   res.render('home', {});
 });
+
+app.post('/search', function(req, res){
+	User.findOne({ 'username' :  req.user.username }, 
+      function(err, user) {
+        // In case of any error, return using the done method
+        if (err)
+          return done(err);
+
+        if (user){
+			res.send(user); 
+		return done(null, user);				
+	  }}
+	  
+)});
+
+app.get('/addfriends', function(req, res){
+	res.render('addfriends');
+})
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
