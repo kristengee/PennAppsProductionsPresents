@@ -177,7 +177,7 @@ app.post('/search', function(req, res){
 )});
 
 app.get('/addfriends', function(req, res){
-	res.render('addfriends');
+	res.render('addfriends', {});
 })
 
 var server = app.listen(3000, function () {
