@@ -5,8 +5,8 @@
 <h2> Welcome to Friends+Franz </h2>
 <h3> About ... </h3>
 <body background="Kale-salad.jpg", width = 100%> </body>
-<button type = "button">Start your Meal </button>
 <FORM>
-<INPUT TYPE="button" value = "Add your Friends" onClick="parent.location='addfriends.hjs'"> </INPUT>
+<INPUT TYPE="button" value = "Start Your Meal" onClick="parent.location='invitefriends.hjs'"> </INPUT>
+<INPUT TYPE="button" value = "Add Friends to your Frandz list" onClick="parent.location='addfriends.hjs'"> </INPUT>
 </FORM>
 </html>
