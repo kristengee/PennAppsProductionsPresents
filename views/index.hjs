@@ -28,8 +28,9 @@
 		<input type="password" name="password"/><br>
 		<p></p>
 		<input type='submit' value="Log In" id='button'/>
+		</form>
 	<form action="/signup" method="POST" aligh="center">
-		&nbsp;
+
 		<input type='submit' value="Sign Up" id='button'/>
 	</span></h2>
 		</div>
