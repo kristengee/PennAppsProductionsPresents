@@ -65,8 +65,8 @@ passport.use('login', new LocalStrategy({
         // Username does not exist, log error & redirect back
         if (!user){
           console.log('User Not Found with username '+username);
-          return done(null, false, 
-                req.flash('message', 'User Not found.'));                 
+          return done(null, false);
+                //req.flash('message', 'User Not found.'));                 
         }
         // User exists but wrong password, log the error 
         if (!isValidPassword(user, password)){
@@ -162,9 +162,6 @@ app.get('/home', function (req, res) {
   res.render('home', {});
 });
 
-app.get('/addfriends', function (req, res) {
-  res.render('addfriends', {});
-});
 
 app.post('/search', function(req, res){
 	User.findOne({ 'username' :  req.user.username }, 
