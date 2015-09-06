@@ -71,8 +71,9 @@ passport.use('login', new LocalStrategy({
         // User exists but wrong password, log the error 
         if (!isValidPassword(user, password)){
           console.log('Invalid Password');
-          return done(null, false, 
-              req.flash('message', 'Invalid Password'));
+          return done(null, false
+              //req.flash('message', 'Invalid Password')
+			  );
         }
         // User and password both match, return user from 
         // done method which will be treated like success
@@ -150,6 +151,10 @@ app.get('/', function(req, res) {
 	res.render('index', {
 		heading: (req.user ? req.user.username : 'Franz')
 	});
+});
+
+app.get('/home', function (req, res) {
+  res.render('home', {});
 });
 
 var server = app.listen(3000, function () {
