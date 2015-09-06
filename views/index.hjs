@@ -17,7 +17,12 @@
     <img src="gray-box.png", width = 35%, height = 30%>
 	</div>
     <h2><span>
+<<<<<<< HEAD
     	<IMG SRC="Logo.png", width = 30%>
+=======
+	<form action="/login" method="POST" aligh="center">
+		    <IMG SRC="Logo.png", width = 30%>
+>>>>>>> e6a2929252e2ee7a646ef27e71ec180495ab008f
 		    	<p></p> <p></p>
 	<form action="/login" method="POST" aligh="center">
 		<label for="username">Username:</label>
