@@ -2,3 +2,9 @@
 	position: absolute;
 	top: 60px;
 }
+
+body {
+	background-image: url('/Images/Kale-salad.jpg');
+	background-size: 100%;
+   	background-repeat: no-repeat;
+}
