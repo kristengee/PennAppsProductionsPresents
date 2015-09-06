@@ -133,7 +133,7 @@ passport.use('signup', new LocalStrategy({
 );
 
 /* Handle Registration POST */
-  app.post('/create_user', passport.authenticate('login', {
+  app.post('/home', passport.authenticate('login', {
     successRedirect: '/home',
     failureRedirect: '/',
     failureFlash : true
