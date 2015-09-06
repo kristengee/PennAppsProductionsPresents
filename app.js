@@ -162,6 +162,10 @@ app.get('/home', function (req, res) {
   res.render('home', {});
 });
 
+app.get('/addfriends', function (req, res) {
+  res.render('addfriends', {});
+});
+
 app.post('/search', function(req, res){
 	User.findOne({ 'username' :  req.user.username }, 
       function(err, user) {
@@ -176,9 +180,6 @@ app.post('/search', function(req, res){
 	  
 )});
 
-app.get('/addfriends', function(req, res){
-	res.render('addfriends', {});
-})
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
