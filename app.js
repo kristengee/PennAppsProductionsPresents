@@ -113,7 +113,7 @@ passport.use('signup', new LocalStrategy({
           // set the user's local credentials
           newUser.username = username;
           newUser.password = createHash(password);
-
+          
           // save the user
           newUser.save(function(err) {
             if (err){

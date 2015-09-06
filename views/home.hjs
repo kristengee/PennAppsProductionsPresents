@@ -5,5 +5,5 @@
 <h2> Welcome to Friends+Franz </h2>
 <h3> About ... </h3>
 <body background="Kale-salad.jpg", width = 100%> </body>
-
+<button type = "button">Start your Meal </button>
 </html>
