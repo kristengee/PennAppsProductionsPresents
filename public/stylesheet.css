@@ -15,20 +15,20 @@ background {
 div.image {
    height: 30%;
    position: relative;
-   top: 75px;
+   top: 100px;
    text-align: center }
 
 h2 { 
    position: absolute; 
    text-align: center;
-   top: 90px; 
+   top: 140px; 
    left: 0; 
    width: 100%; 
 }
 
 h2 span { 
    color: #B71A06; 
-   font: 18px/36px Times;  
+   font: 18px/36px "Droid Sans";  
    padding: 10px; 
 }
 
@@ -39,7 +39,7 @@ h2 span {
    border-radius: 1px;
    color: #ffffff;
    font-size: 15px;
-   font-family: Times;
+   font-family: "Droid Sans";
    text-decoration: none;
    vertical-align: middle;
    }

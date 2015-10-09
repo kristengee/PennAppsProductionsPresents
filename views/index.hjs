@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel='stylesheet' type='text/css' href='/stylesheet.css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
 	<script type="text/javascript">
@@ -14,7 +15,7 @@
     	<p></p>
     <body>
     <div class = image>
-    <img src="gray-box.png", width = 35%, height = 30%>
+    <img src="gray-box.png", width = 440, height = 370>
 	</div>
     <h2><span>
 
@@ -22,16 +23,15 @@
 
 		    	<p></p> <p></p>
 	<form action="/login" method="POST" aligh="center">
+		<form action="/signup" method="POST" aligh="center">
 		<label for="username">Username:</label>
 		<input type="text" name="username"/><br>
 		<label for="password">Password:  </label>
 		<input type="password" name="password"/><br>
 		<p></p>
 		<input type='submit' value="Log In" id='button'/>
-		</form>
-	<form action="/signup" method="POST" aligh="center">
-
 		<input type='submit' value="Sign Up" id='button'/>
+		</form></form>
 	</span></h2>
 		</div>
     </body>
