@@ -11,7 +11,7 @@
 	}
 
     </script>
-    <body background="Kale-salad.jpg", width = screen.width>
+    <body background="Kale.jpg", width = screen.width>
     	<p></p>
     <body>
     <div class = image>
@@ -19,7 +19,7 @@
 	</div>
     <h2><span>
 
-    	<IMG SRC="Logo.png", width = 30%>
+    	<IMG SRC="FF.png", width = 30%>
 
 		    	<p></p> <p></p>
 	<form action="/login" method="POST" aligh="center">
