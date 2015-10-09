@@ -1,7 +1,7 @@
 {
   "name": "pennapps",
   "description": "..",
-  "author": "Kristen Gee",
+  "author": "Kristen Gee, Becky Abramowitz, Ryan O'Gorman",
   "version": "0.0.1",
   "dependencies": {
     "bcryptjs": "^2.2.1",
