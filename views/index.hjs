@@ -6,9 +6,37 @@
 
 	<script type="text/javascript">
 
-	function Main() {
-		$('#button').show();
-	}
+	$(document).ready(function(){
+		var checkInputs = function() {
+			if ($('#username-input').val() === '') {
+				alert('No username given!');
+				return false;
+			}
+			if ($('#password-input').val() === '') {
+				alert('No password given!');
+				return false;
+			}
+			return true;
+		}
+		$('#login-button').click(function() {
+			if (!checkInputs()) {
+				return;
+			}
+			var loginForm = $("#login-form");
+			loginForm.find("[name=username]").val($('#username-input').val());
+			loginForm.find("[name=password]").val($('#password-input').val());
+			loginForm.submit();
+		});
+		$('#signup-button').on('click', function() {
+			if (!checkInputs()) {
+				return;
+			}
+			var signupForm = $("#signup-form");
+			signupForm.find("[name=username]").val($('#username-input').val());
+			signupForm.find("[name=password]").val($('#password-input').val());
+			signupForm.submit();
+		});
+	})
 
     </script>
     <body background="Kale.jpg", width = screen.width>
@@ -22,16 +50,23 @@
     	<IMG SRC="FF.png", width = 30%>
 
 		    	<p></p> <p></p>
-	<form action="/login" method="POST" aligh="center">
-		<form action="/signup" method="POST" aligh="center">
+    <form id="login-form" action="/login" method="post" hidden="true">
+        <input type="text" name="username"/>
+        <input type="password" name="password"/>
+	</form>
+	<form id="signup-form" action="/signup" method="post" hidden="true">
+        <input type="text" name="username"/>
+        <input type="password" name="password"/>
+	</form>
+	<div align="center">
 		<label for="username">Username:</label>
-		<input type="text" name="username"/><br>
+		<input id="username-input" type="text" name="username"/><br>
 		<label for="password">Password:  </label>
-		<input type="password" name="password"/><br>
+		<input id="password-input" type="password" name="password"/><br>
 		<p></p>
-		<input type='submit' value="Log In" id='button'/>
-		<input type='submit' value="Sign Up" id='button'/>
-		</form></form>
+		<input type='submit' value="Log In" id='login-button'/>
+		<input type='submit' value="Sign Up" id='signup-button'/>
+	</div>
 	</span></h2>
 		</div>
     </body>
