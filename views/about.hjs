@@ -1,8 +1,33 @@
 <!DOCTYPE html>
 <html>
 <link rel='stylesheet' type='text/css' href='/stylesheet.css'>
+<link href='http://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic' rel='stylesheet' type='text/css'> 
 <title> About </title>
 <body background="Kale-salad.jpg", width = 100%> </body>
+<style>
+	.transparent_box {
+		text-align: center;
+	}
+	div.name {
+		text-align: center;
+		font-family: 'Josefin Sans';
+		font-size: 2.5em;
+	}
+	h1{
+        font-family: 'Josefin Sans';
+        font-size: 3em;
+        }
+    div.descrip {
+    	font-family: 'Josefin Sans';
+    	font-size: 1.5em;
+    }
+    img{
+        width:250px;
+        height:250px;         
+        border-radius: 100%;
+        }
+</style>
 <div class = "top_bar" role = "banner">
 	<ul>
 		<li> <a href="home">Home</a> </li>
@@ -17,9 +42,31 @@
 
 <div class = "body_text">
 	<div class = "transparent_box">
-		<p> About</p>
-		<p></p>
-		<p> Food&Franz was started by three franz at the University of Pennsylvania who like coding and enjoying franz together. </p>
+		<h1> About</h1>
+		
+		<p> Food&Franz was started by three franz at the University of Pennsylvania who like coding and enjoying franz together.</p>
+
+		<table id = 'table'>
+		<tr>
+			<td>
+				<div class = 'name' id = 'Becky'> Becky Abramowitz </div>
+				<img class="display" id = "display_Becky" alt src="Becky.png"/>
+				<div class = 'descrip' id = 'BeckyDescrip'> Becky Abramowitz is a current Sophomore at the University of Pennsylvania studying Mechanical Engineering and Computer Science. On breaks from school she enjoys to play with her dog Shaina at her home in Menlo Park, California. At Penn she enjoys dining at Sweetgreen. She especially loves eating kale salads and avocados. She also enjoys hanging out with her fellow teammates Kristen and Ryan on the weekends and in classes. She is the social chair of her Engineering sorority Alpha Omega Epsilon and is excited for the coming semester at Penn. A proud Warriors fan, she likes to watch games and get updates on her phone when she is not working or hanging out with friends. She likes to drink wine also. </div>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<div class = 'name' id = 'Kristen'> Kristen Gee </div>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<div class = 'name' id = 'Ryan'> Ryan O'Gorman </div>
+			</td>
+		</tr>
+</table>
 	</div>
-</div>
+	</div>
 </html>
