@@ -91,3 +91,17 @@ li a:hover:not(.active) {
 li a:hover {
     background-color: #111;
 }
+
+/* style for use in the opaque text box */
+div.transparent_box {
+  padding: 10px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+}
+
+div.transparent_box p {
+  margin: 5%;
+  color: #000000;
+  font: 16px/18px "Verdana"; 
+}
