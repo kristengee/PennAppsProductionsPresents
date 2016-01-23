@@ -16,7 +16,7 @@ app.set('view engine', 'hjs');
 var mongoose = require('mongoose');
 
 // Connection URL. This is where your mongodb server is running.
-var url = 'mongodb://localhost:27017/users';
+var url = 'mongodb://localhost:27017';
 
 var isValidPassword = function(user, password){
   return bCrypt.compareSync(password, user.password);
