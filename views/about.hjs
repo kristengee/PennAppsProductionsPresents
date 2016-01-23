@@ -42,7 +42,7 @@
 
 <div class = "body_text">
 	<div class = "transparent_box">
-		<h1> About</h1>
+		<h1> About Us</h1>
 		
 		<p> Food&Franz was started by three franz at the University of Pennsylvania who like coding and enjoying franz together.</p>
 
@@ -58,12 +58,14 @@
 		<tr>
 			<td>
 				<div class = 'name' id = 'Kristen'> Kristen Gee </div>
+				<img class="display" id = "display_Kristen" alt src="Kristen.png"/>
 			</td>
 		</tr>
 
 		<tr>
 			<td>
 				<div class = 'name' id = 'Ryan'> Ryan O'Gorman </div>
+				<img class="display" id = "display_Ryan" alt src="Ryan.png"/>
 			</td>
 		</tr>
 </table>
