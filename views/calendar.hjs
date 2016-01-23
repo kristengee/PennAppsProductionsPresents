@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel='stylesheet' type='text/css' href='/stylesheet.css'>
-<title> Home </title>
+<title> Calendar </title>
 <body background="Kale-salad.jpg", width = 100%> </body>
 <div class = "top_bar" role = "banner">
 	<ul>
@@ -17,9 +17,7 @@
 
 <div class = "body_text">
 	<div class = "transparent_box">
-		<p> Welcome to Food&Franz!</p>
-		<p></p>
-		<p> Food&Franz is your one-stop desintation for coordinating delicious get-togethers with your frandz! Browse the website to find recipes, connect with frandz, plan a meal, and see your upcoming social calendar. </p>
+		<p> </p>
 	</div>
 </div>
 </html>
