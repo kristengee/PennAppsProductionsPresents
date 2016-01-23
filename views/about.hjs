@@ -21,6 +21,7 @@
     div.descrip {
     	font-family: 'Josefin Sans';
     	font-size: 1.5em;
+    	color: #FF6699;
     }
     img{
         width:250px;
@@ -54,7 +55,8 @@
 				<div class = 'descrip' id = 'BeckyDescrip'> Becky Abramowitz is a current Sophomore at the University of Pennsylvania studying Mechanical Engineering and Computer Science. On breaks from school she enjoys to play with her dog Shaina at her home in Menlo Park, California. At Penn she enjoys dining at Sweetgreen. She especially loves eating kale salads and avocados. She also enjoys hanging out with her fellow teammates Kristen and Ryan on the weekends and in classes. She is the social chair of her Engineering sorority Alpha Omega Epsilon and is excited for the coming semester at Penn. A proud Warriors fan, she likes to watch games and get updates on her phone when she is not working or hanging out with friends. She likes to drink wine also. </div>
 			</td>
 		</tr>
-
+		<br> 
+		</br>
 		<tr>
 			<td>
 				<div class = 'name' id = 'Kristen'> Kristen Gee </div>
@@ -66,6 +68,7 @@
 			<td>
 				<div class = 'name' id = 'Ryan'> Ryan O'Gorman </div>
 				<img class="display" id = "display_Ryan" alt src="Ryan.png"/>
+				<div class = 'descrip' id = 'RyanDescrip'> Ryan O'Gorman is a current Sophomore at the University of Pennsylvania studying Computer Science. On breaks from school he enjoys hanging out with his friends and playing with his niece at his home in New Jersey. At Penn he enjoys eating at Sitar Indian Cuisine. He especially loves to eat protein. He also enjoys hanging out with his fellow fraternity brothers of Alpha Sigma Phi. He is the treasurer of ASP and is excited for the coming Spring semester and meeting the new pledge class. A proud brother of ASP he has enjoyed recently a date night. </div>
 			</td>
 		</tr>
 </table>
