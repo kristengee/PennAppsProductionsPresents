@@ -5,9 +5,9 @@
 <body background="Kale-salad.jpg", width = 100%> </body>
 <div class = "top_bar" role = "banner">
 	<ul>
-		<li> <a href="home">Home</a> </li>
+		<li> <a href="home"><img src="ff.png" alt="Home" style="height:25px"></a> </li>
 		<li> <a href="create">Plan a Meal</a> </li>
-		<li> <a href="friends">Frandz List</a> </li>
+		<li> <a href="friends">Franz List</a> </li>
 		<li> <a href="calendar">Upcoming Events</a> </li>
 		<li> <a href="recipes">Find Recipes</a> </li>
 		<li> <a href="about">About</a> </li>
@@ -17,9 +17,20 @@
 
 <div class = "body_text">
 	<div class = "transparent_box">
-		<p> Welcome to Food&Franz!</p>
-		<p></p>
-		<p> Food&Franz is your one-stop desintation for coordinating delicious get-togethers with your frandz! Browse the website to find recipes, connect with frandz, plan a meal, and see your upcoming social calendar. </p>
+		<table style="width:100%">
+			<tr>
+				<td style="width:70%">
+					<p style ="18px/36px Verdana"><center>Welcome to Food&Franz!</center></p>
+					<p></p>
+					<p> Food&Franz is your one-stop desintation for coordinating delicious get-togethers with your franz! Browse the website to find recipes, connect with franz, plan a meal, and see your upcoming social calendar. </p>
+				</td>
+				<td>
+					<p><img src="crustinis.jpg" style="width:100%; height:60%";></p>
+					<p><img src="eggs.jpg" style="width:100%; height:60%;"></p>
+					<p><img src="pasta.jpg" style="width:100%; height:60%;"></p>
+				</td>
+			</tr>
+		</table>
 	</div>
 </div>
 </html>
