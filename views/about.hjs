@@ -54,22 +54,31 @@
 			<td style="width:28%">
 				<div class = 'name' id = 'Becky'> Becky Abramowitz </div>
 				<img class="display" id = "display_Becky" alt src="Becky.png"/>
-				<div class = 'descrip' id = 'BeckyDescrip'> Becky Abramowitz is a current sophomore at the University of Pennsylvania studying Mechanical Engineering and Computer Science. On breaks from school she enjoys to play with her dog Shaina at her home in Menlo Park, California. At Penn she enjoys dining at Sweetgreen. She especially loves eating kale salads and avocados. She is the social chair of her sorority, Alpha Omega Epsilon, and is excited for the coming semester at Penn. A proud Warriors and Giants fan, she likes to watch games and get updates on her phone when she is not working or hanging out with friends.</div>
 			</td>
 			<td style="width:3%"></td>
 			<td style="width:28%">
 				<div class = 'name' id = 'Kristen'> Kristen Gee </div>
 				<img class="display" id = "display_Kristen" alt src="Kristen.png"/> 
-				<div class = 'descrip' id = 'KristenDescrip'> Kristen Gee is a current sophomore at the University of Pennsylvania studying Cognitive Science and Computer Science. On breaks from school, she enjoys frozen yogurt and shopping with her friends from her hometown of Manhattan. At Penn, she enjoys sushi from Chattime. She especially loves avocados and getting breakfast at the BUI's food truck. She enjoys taking random, interesting classes with friends and is a member of Alpha Phi, where she recently enjoyed several mixers with Penn fraternities. Although she usually dresses like a stylish New Yorker, she is an avid proponent of the groutfit. </div>
 			</td>
 			<td style="width:3%"></td>
 			<td style="width:28%">
 				<div class = 'name' id = 'Ryan'> Ryan O'Gorman </div>
 				<img class="display" id = "display_Ryan" alt src="Ryan.png"/>
-				<div class = 'descrip' id = 'RyanDescrip'> Ryan O'Gorman is a current sophomore at the University of Pennsylvania studying Computer Science. On breaks from school he enjoys hanging out with his friends and playing with his niece at his home in New Jersey. At Penn he enjoys eating at Sitar Indian Cuisine. He especially loves to eat protein. He also enjoys hanging out with his fellow fraternity brothers of Alpha Sigma Phi. He is the treasurer of Alpha Sig (a.k.a. ASP) and is excited for the coming Spring semester and meeting the new pledge class. A proud brother of Alpha Sig he has enjoyed recently a date night. </div>
 			</td>
 			<p>
 		</tr>
+		<tr>
+			<td>
+				<div class = 'descrip' id = 'BeckyDescrip'> Becky Abramowitz is a current sophomore at the University of Pennsylvania studying Mechanical Engineering and Computer Science. On breaks from school she enjoys to play with her dog Shaina at her home in Menlo Park, California. At Penn she enjoys dining at Sweetgreen. She especially loves eating kale salads and avocados. She is the social chair of her sorority, Alpha Omega Epsilon, and is excited for the coming semester at Penn. A proud Warriors and Giants fan, she likes to watch games and get updates on her phone when she is not working or hanging out with friends.</div>
+			</td>
+			<td> </td>
+			<td>
+				<div class = 'descrip' id = 'KristenDescrip'> Kristen Gee is a current sophomore at the University of Pennsylvania studying Cognitive Science and Computer Science. On breaks from school, she enjoys frozen yogurt and shopping with her friends from her hometown of Manhattan. At Penn, she enjoys sushi from Chattime. She especially loves avocados and getting breakfast at the BUI's food truck. She enjoys taking random, interesting classes with friends and is a member of Alpha Phi, where she recently enjoyed several mixers with Penn fraternities. Although she usually dresses like a stylish New Yorker, she is an avid proponent of the groutfit. </div>
+			</td>
+			<td> </td>
+			<td>
+				<div class = 'descrip' id = 'RyanDescrip'> Ryan O'Gorman is a current sophomore at the University of Pennsylvania studying Computer Science. On breaks from school he enjoys hanging out with his friends and playing with his niece at his home in New Jersey. At Penn he enjoys eating at Sitar Indian Cuisine. He especially loves to eat protein. He also enjoys hanging out with his fellow fraternity brothers of Alpha Sigma Phi. He is the treasurer of Alpha Sig (a.k.a. ASP) and is excited for the coming Spring semester and meeting the new pledge class. A proud brother of Alpha Sig he has enjoyed recently a date night. </div>
+			</td>
 </table>
 	</div>
 	</div>
