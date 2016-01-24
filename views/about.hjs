@@ -29,6 +29,10 @@
         height:250px;         
         border-radius: 100%;
         }
+    #aboutus {
+    	font-family: 'Josefin Sans';
+    	font-size: 20px;
+    }
 </style>
 <div class = "top_bar" role = "banner">
 	<ul>
@@ -46,7 +50,7 @@
 	<div class = "transparent_box">
 		<h1> About Us</h1>
 		
-		<p> Food&Franz was started by three franz at the University of Pennsylvania who like coding and enjoying franz together.</p>
+		<p id = 'aboutus'> Food&Franz was started by three franz at the University of Pennsylvania who like coding and enjoying franz together.</p>
 
 		<table id = 'table'>
 			

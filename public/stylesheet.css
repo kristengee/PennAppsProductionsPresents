@@ -1,3 +1,5 @@
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+
 body {
 	background-image: url('Kale.jpg');
 	background-size: 120%;
@@ -28,8 +30,8 @@ h2 {
 
 h2 span { 
    color: #B71A06; 
-   font: 18px/36px "Droid Sans";  
-   padding: 10px; 
+   font: 18px/36px "Josefin Sans";  
+   padding: 12px; 
 }
 
 #button {
@@ -39,7 +41,7 @@ h2 span {
    border-radius: 1px;
    color: #ffffff;
    font-size: 15px;
-   font-family: "Droid Sans";
+   font-family: "Josefin Sans";
    text-decoration: none;
    vertical-align: middle;
    }
@@ -76,7 +78,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     color: #ffffff; 
-    font: 18px/36px "Verdana";  
+    font: 18px/36px "Josefin Sans";  
     padding: 20px; 
 }
 
@@ -103,10 +105,11 @@ div.transparent_box {
 div.transparent_box p {
   margin: 5%;
   color: #000000;
-  font: 16px/18px "Verdana"; 
+  font: 16px/18px "Josefin Sans"; 
 }
 
 #welcometoff {
    position: relative;
-   height: 40px;
+   color: PaleVioletRed;
+   font-size: 28px;
 }
