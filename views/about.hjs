@@ -66,7 +66,7 @@
 			<td style="width:28%">
 				<div class = 'name' id = 'Ryan'> Ryan O'Gorman </div>
 				<img class="display" id = "display_Ryan" alt src="Ryan.png"/>
-				<div class = 'descrip' id = 'RyanDescrip'> Ryan O'Gorman is a current sophomore at the University of Pennsylvania studying Computer Science. On breaks from school he enjoys hanging out with his friends and playing with his niece at his home in New Jersey. At Penn he enjoys eating at Sitar Indian Cuisine. He especially loves to eat protein. He also enjoys hanging out with his fellow fraternity brothers of Alpha Sigma Phi. He is the treasurer of ASP and is excited for the coming Spring semester and meeting the new pledge class. A proud brother of ASP he has enjoyed recently a date night. </div>
+				<div class = 'descrip' id = 'RyanDescrip'> Ryan O'Gorman is a current sophomore at the University of Pennsylvania studying Computer Science. On breaks from school he enjoys hanging out with his friends and playing with his niece at his home in New Jersey. At Penn he enjoys eating at Sitar Indian Cuisine. He especially loves to eat protein. He also enjoys hanging out with his fellow fraternity brothers of Alpha Sigma Phi. He is the treasurer of Alpha Sig (a.k.a. ASP) and is excited for the coming Spring semester and meeting the new pledge class. A proud brother of Alpha Sig he has enjoyed recently a date night. </div>
 			</td>
 			<p>
 		</tr>
