@@ -24,7 +24,7 @@
     	color: #FF6699;
     	text-align:justify;
     }
-    img{
+    .display {
         width:250px;
         height:250px;         
         border-radius: 100%;
