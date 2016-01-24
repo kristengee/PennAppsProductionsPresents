@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="icon" type="image/png" href="IconF&F.png" />
+</head>
 <link rel='stylesheet' type='text/css' href='/stylesheet.css'>
 <link href='http://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic' rel='stylesheet' type='text/css'> 
-<title> About </title>
+<title> Food&Franz: About </title>
 <body background="Kale-salad.jpg", width = 100%> </body>
 <style>
 	.transparent_box {
@@ -21,7 +24,7 @@
     div.descrip {
     	font-family: 'Josefin Sans';
     	font-size: 1.5em;
-    	color: #FF6699;
+    	color: #EC5D7A;
     	text-align:justify;
     }
     .display {

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="icon" type="image/png" href="IconF&F.png" />
+</head>
 <link rel='stylesheet' type='text/css' href='/stylesheet.css'>
-<title> Recipes </title>
+<title> Food&Franz: Recipes </title>
 <body background="Kale-salad.jpg", width = 100%> </body>
 <div class = "top_bar" role = "banner">
 	<ul>
