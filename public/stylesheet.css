@@ -105,3 +105,7 @@ div.transparent_box p {
   color: #000000;
   font: 16px/18px "Verdana"; 
 }
+
+#welcometoff {
+   color: red;
+}
