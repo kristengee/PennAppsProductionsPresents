@@ -60,7 +60,8 @@
 		<tr>
 			<td>
 				<div class = 'name' id = 'Kristen'> Kristen Gee </div>
-				<img class="display" id = "display_Kristen" alt src="Kristen.png"/> Kristen Gee is a current sophomore at the University of Pennsylvania studying Cognitive Science and Computer Science. On breaks from school, she enjoys getting frozen yogurt and shopping with her friends from her hometown of Manhattan. At Penn, she enjoys getting sushi at Chattime. She especially loves to eat avocados, and also enjoys getting breakfast at the BUIs food truck. She enjoys taking random, interesting classes with her friends, and is a member of Alpha Phi. Although she usually dresses like a stylish New Yorker, Kristen is an avid proponent of the groufit. 
+				<img class="display" id = "display_Kristen" alt src="Kristen.png"/> 
+				<div class = 'descrip' id = 'KristenDescrip'> Kristen Gee is a current sophomore at the University of Pennsylvania studying Cognitive Science and Computer Science. On breaks from school, she enjoys getting frozen yogurt and shopping with her friends from her hometown of Manhattan. At Penn, she enjoys getting sushi at Chattime. She especially loves to eat avocados and enjoys getting breakfast at the BUIs food truck. She enjoys taking random, interesting classes with her friends and is a member of Alpha Phi. Although she usually dresses like a stylish New Yorker, Kristen is an avid proponent of the groutfit. </div>
 
 			</td>
 		</tr>
