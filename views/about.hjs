@@ -22,6 +22,7 @@
     	font-family: 'Josefin Sans';
     	font-size: 1.5em;
     	color: #FF6699;
+    	text-align:justify;
     }
     img{
         width:250px;
@@ -48,30 +49,26 @@
 		<p> Food&Franz was started by three franz at the University of Pennsylvania who like coding and enjoying franz together.</p>
 
 		<table id = 'table'>
+			
 		<tr>
-			<td>
+			<td style="width:28%">
 				<div class = 'name' id = 'Becky'> Becky Abramowitz </div>
 				<img class="display" id = "display_Becky" alt src="Becky.png"/>
-				<div class = 'descrip' id = 'BeckyDescrip'> Becky Abramowitz is a current sophomore at the University of Pennsylvania studying Mechanical Engineering and Computer Science. On breaks from school she enjoys to play with her dog Shaina at her home in Menlo Park, California. At Penn she enjoys dining at Sweetgreen. She especially loves eating kale salads and avocados. She also enjoys hanging out with her fellow teammates Kristen and Ryan on the weekends and in classes. She is the social chair of her Engineering sorority Alpha Omega Epsilon and is excited for the coming semester at Penn. A proud Warriors fan, she likes to watch games and get updates on her phone when she is not working or hanging out with friends.</div>
+				<div class = 'descrip' id = 'BeckyDescrip'> Becky Abramowitz is a current sophomore at the University of Pennsylvania studying Mechanical Engineering and Computer Science. On breaks from school she enjoys to play with her dog Shaina at her home in Menlo Park, California. At Penn she enjoys dining at Sweetgreen. She especially loves eating kale salads and avocados. She is the social chair of her Engineering sorority Alpha Omega Epsilon and is excited for the coming semester at Penn. A proud Warriors and Giants fan, she likes to watch games and get updates on her phone when she is not working or hanging out with friends.</div>
 			</td>
-		</tr>
-		<br> 
-		</br>
-		<tr>
-			<td>
+			<td style="width:3%"></td>
+			<td style="width:28%">
 				<div class = 'name' id = 'Kristen'> Kristen Gee </div>
 				<img class="display" id = "display_Kristen" alt src="Kristen.png"/> 
 				<div class = 'descrip' id = 'KristenDescrip'> Kristen Gee is a current sophomore at the University of Pennsylvania studying Cognitive Science and Computer Science. On breaks from school, she enjoys getting frozen yogurt and shopping with her friends from her hometown of Manhattan. At Penn, she enjoys getting sushi at Chattime. She especially loves to eat avocados and enjoys getting breakfast at the BUIs food truck. She enjoys taking random, interesting classes with her friends and is a member of Alpha Phi. Although she usually dresses like a stylish New Yorker, Kristen is an avid proponent of the groutfit. </div>
-
 			</td>
-		</tr>
-
-		<tr>
-			<td>
+			<td style="width:3%"></td>
+			<td style="width:28%">
 				<div class = 'name' id = 'Ryan'> Ryan O'Gorman </div>
 				<img class="display" id = "display_Ryan" alt src="Ryan.png"/>
 				<div class = 'descrip' id = 'RyanDescrip'> Ryan O'Gorman is a current sophomore at the University of Pennsylvania studying Computer Science. On breaks from school he enjoys hanging out with his friends and playing with his niece at his home in New Jersey. At Penn he enjoys eating at Sitar Indian Cuisine. He especially loves to eat protein. He also enjoys hanging out with his fellow fraternity brothers of Alpha Sigma Phi. He is the treasurer of ASP and is excited for the coming Spring semester and meeting the new pledge class. A proud brother of ASP he has enjoyed recently a date night. </div>
 			</td>
+			<p>
 		</tr>
 </table>
 	</div>
