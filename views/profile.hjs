@@ -4,11 +4,7 @@
 <link rel="icon" type="image/png" href="IconF&F.png" />
 </head>
 <link rel='stylesheet' type='text/css' href='/stylesheet.css'>
-<<<<<<< HEAD
-<title> Welcome {{ username }}! </title>
-=======
 <title> Food&Franz: My Account </title>
->>>>>>> eacff0274c105bef5cceed6d5fc8acd05d0a4a64
 <body background="Kale-salad.jpg", width = 100%> </body>
 <style>
 	h1 {
