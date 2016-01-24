@@ -107,5 +107,6 @@ div.transparent_box p {
 }
 
 #welcometoff {
-   color: red;
+   position: relative;
+   height: 40px;
 }

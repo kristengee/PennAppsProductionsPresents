@@ -19,8 +19,8 @@
 	<div class = "transparent_box">
 		<table style="width:100%">
 			<tr>
-				<td style="width:70%">
-					<p style="text-align:center" id = 'welcometoff'>Welcome to Food&Franz!</p>
+				<td style="width:70%" valign="top">
+					<p style="text-align:center" id = 'welcometoff' >Welcome to Food&Franz!</p>
 					<p></p>
 					<p> Food&Franz is your one-stop desintation for coordinating delicious get-togethers with your franz! Browse the website to find recipes, connect with franz, plan a meal, and see your upcoming social calendar. </p>
 				</td>
