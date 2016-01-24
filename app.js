@@ -183,13 +183,32 @@ app.get('/friends', function (req, res) {
 });
 
 app.get('/profile', function (req, res) {
-  res.render('profile', { 'username'  : req });
+  res.render('profile', { 'username' : req.user.username });
 
 });
+
+app.get('/getUser', function (req, res) {
+  User.find({ 'username': req.user.username}, function(err, user) {
+    if (err) throw err;
+    console.log(user);
+    res.json(user);
+  })
+});
+
 
 app.get('/recipes', function (req, res) {
   res.render('recipes', {});
 });
+
+
+app.get('/addUser', function (req, res) {
+  User.find({ 'username': req.user.username}, function(err, user) {
+    if (err) throw err;
+    console.log(user);
+    res.json(user);
+  })
+});
+
 
 
 app.post('/search', function(req, res){
