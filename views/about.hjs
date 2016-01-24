@@ -32,6 +32,7 @@
     #aboutus {
     	font-family: 'Josefin Sans';
     	font-size: 20px;
+    	color: #EC5D7A;
     }
 </style>
 <div class = "top_bar" role = "banner">
