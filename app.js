@@ -183,7 +183,8 @@ app.get('/friends', function (req, res) {
 });
 
 app.get('/profile', function (req, res) {
-  res.render('profile', {});
+  res.render('profile', { 'username' : req.user.username });
+
 });
 
 app.get('/recipes', function (req, res) {
