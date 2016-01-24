@@ -6,9 +6,9 @@
 
 <div class = "top_bar" role = "banner">
 	<ul>
-		<li> <a href="home">Home</a> </li>
+		<li> <a href="home"><img src="FF.png" alt="Home" style="height:25px"></a> </li>
 		<li> <a href="create">Plan a Meal</a> </li>
-		<li> <a href="friends">Frandz List</a> </li>
+		<li> <a href="friends">Franz List</a> </li>
 		<li> <a href="calendar">Upcoming Events</a> </li>
 		<li> <a href="recipes">Find Recipes</a> </li>
 		<li> <a href="about">About</a> </li>
